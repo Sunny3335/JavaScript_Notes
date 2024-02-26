@@ -9,6 +9,7 @@
 //         return 'toon na na na la la ';
 //     }
 // }
+
 function createUser(firstName, lastName, email, age, address){
     const user = Object.create(createUser.prototype);// {}
     // here we use createUser.prototype in place of userName  because isse phle userName ek object tha jisme function defined tha but noe this function is within the prototype.

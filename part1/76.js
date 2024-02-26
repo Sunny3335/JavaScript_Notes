@@ -3,15 +3,19 @@
 //     age: 8,
 //     about: function(){
 //         console.log(this.firstName, this.age);
-//     }   
+//     }
 // }
+
+
+// both are equivalent.
+
 
 // const user1 = {
 //     firstName : "harshit",
 //     age: 8,
 //     about(){
 //         console.log(this.firstName, this.age);
-//     }   
+//     }
 // }
 
 

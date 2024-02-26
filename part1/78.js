@@ -1,4 +1,5 @@
 // this was taking too much memory space so i have taken out from that object and written them as a new object method
+// this is object .
 const userMethods = {
     about : function(){
         return `${this.firstName} is ${this.age} years old.`;

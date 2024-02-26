@@ -10,7 +10,9 @@ const userMethods = {
     }
 }
 function createUser(firstName, lastName, email, age, address){
-    // proto is reference it will dearch in that object if not present in the own object.
+    // proto is reference it will search in that object if not present in the own object.
+    // object.create gives me the empty object and the prototyppe of other object.
+    
     const user = Object.create(userMethods);// {}
     user.firstName = firstName;
     user.lastName = lastName;
