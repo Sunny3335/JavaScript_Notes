@@ -2,6 +2,7 @@
 
 // primitive data type
 // this is store in stack
+// and in stack each variable has got a new memory locaton to store the data.
 // let num1 = 6;
 // let num2 = num1;
 // console.log("value is num1 is", num1);
@@ -14,7 +15,8 @@
 
 // reference types
 // array
-// here array is store in heap and its address is stored in stack then if we define new array is equal to the previous array then the new array is assignes to the same array address
+// array stored in heap but its pointer is stored in stack.
+// here array is store in heap and its address is stored in stack as a pointer and each variable has new pointer then if we define new array is equal to the previous array then the new array is assignes to the same array address
 
 let array1 = ["item1", "item2"];
 let array2 = array1;

@@ -1,5 +1,5 @@
 // intro to arrays
-// reference type
+// reference type so all reference type array is called object
 // how to create arrays
 
 // ordered collection of items
@@ -9,9 +9,9 @@
 // let mixed = [1,2,2.3, "string", null, undefined];
 // console.log(mixed);
 // console.log(numbers);
-// console.log(fruits[2]);
+// console.log(fruits);
 let fruits = ["apple", "mango", "grapes"];
-let obj = {}; // creation of object literal
+// let obj = {}; // creation of object literal
 // console.log(fruits);
 // fruits[1] = "banana";
 // console.log(fruits); // array is emutable that can change the original array

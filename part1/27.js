@@ -8,10 +8,12 @@ console.log(fruits);
 // fruits.push("banana");
 // console.log(fruits);
 
-// pop
+
+// pop // always remove the last element.
 // let poppedFruit = fruits.pop(); // it will return the popped items
 // console.log(fruits);
 // console.log("popped fruits is", poppedFruit);
+
 
 // unshift
 // fruits.unshift("banana"); // to add items in starting
@@ -19,7 +21,7 @@ console.log(fruits);
 // console.log(fruits);
 
 // shift
-// let removedFruit = fruits.shift(); // to remove the elment froms strating
+// let removedFruit = fruits.shift(); // to remove the element froms strating
 // console.log(fruits);
 // console.log("removed fruits is ", removedFruit);
 
