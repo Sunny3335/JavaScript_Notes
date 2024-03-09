@@ -24,7 +24,7 @@
 // }
 
 
-let day = 9;
+let day = 1;
 
 switch(day){
     case 0:
@@ -52,4 +52,9 @@ switch(day){
         console.log("Invalid Day");
 }
 
-// in case of switch statement if we are not using the break statement then after the satisfied condition all the code are executed 
+// in case of switch statement if we are not using the break statement then after the satisfied condition all the code are executed
+
+// difference between the if-else and the switch loop
+// in if-else loop if any in between condition is true then it will break the lopp and go outside the loop
+
+// but in case of switch if we dont put break statement then it will go to run further  code also which is not desirable in such cases.

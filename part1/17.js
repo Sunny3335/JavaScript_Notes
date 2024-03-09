@@ -9,7 +9,7 @@
 // prompt is use to take input as a "string" by user
 let winningNumber = 19;
 let userGuess = +prompt("Guess a number");
-// here + sign change the  data type of string into number. Because JavaScript automatically
+// here + sign change the  data type of string into number. Because JavaScript automatically take input as a string.
 if(userGuess === winningNumber){
     console.log("Your guess is right!!");
 }else{

@@ -10,11 +10,12 @@
 // console.log(mixed);
 // console.log(numbers);
 // console.log(fruits);
+
 let fruits = ["apple", "mango", "grapes"];
-// let obj = {}; // creation of object literal
+let obj = {}; // creation of object literal
 // console.log(fruits);
 // fruits[1] = "banana";
-// console.log(fruits); // array is emutable that can change the original array
+// console.log(fruits); // array is mutable that can change the original array, but reference of array is immutable it does not change the reference of array.
 console.log(typeof fruits); // object
 console.log(typeof obj); // object
 console.log(Array.isArray(fruits)); // true

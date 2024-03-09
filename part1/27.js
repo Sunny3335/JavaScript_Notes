@@ -22,6 +22,7 @@ console.log(fruits);
 
 // shift
 // let removedFruit = fruits.shift(); // to remove the element froms strating
+
 // console.log(fruits);
 // console.log("removed fruits is ", removedFruit);
 

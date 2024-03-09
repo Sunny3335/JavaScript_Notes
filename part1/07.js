@@ -13,6 +13,8 @@
 
 //  string is immutable means (actual string can not be changed) firstName.trim() will gives the new string. so in this case we can make new variable or we can  update the existing varibale.
 
+// in case of immutable we make a copy of the variable we can not change the original variable.
+
 // firstName = firstName.toUpperCase();
 // firstName = firstName.toLowerCase();
 // console.log(firstName);

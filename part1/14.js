@@ -1,4 +1,4 @@
-// if else condition 
+// if else condition
 
 // let age = 17;
 
@@ -16,23 +16,24 @@
 //     console.log("odd");
 // }
 
-// falsy values 
+// falsy values
 
 
 // false
 // ""
-// null 
+// null
 // undefined
 // 0
 
-// truthy 
+// truthy
 // "abc"
 // 1, -1
 
-// let firstName= 0;
+let firstName= " "; // this is truthy value because this is not the empty string it contain the  space as string.
 
-// if(firstName){
-//     console.log(firstName);
-// }else{
-//     console.log("firstName is kinda empty");
-// }
+if(firstName){
+    console.log(firstName);
+    console.log("not empty ")
+}else{
+    console.log("firstName is kinda empty");
+}
