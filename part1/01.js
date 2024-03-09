@@ -1,17 +1,17 @@
 // console.log can print something on console
 // console.log("hello world");
 
-var prompt = require('prompt');
+// var prompt = require('prompt');
 
 // const cars=['BME','KID','KIDU','KIDI'];
 // cars.push("fjnf")
 // console.log(cars)
 // console.log(cars[4]);
 
-let n=prompt("please enter the num");
-for(var i=0;i<=n;i++){
-    console.log(i);
-}
+// let n=prompt("please enter the num");
+// for(let20 i=0;i<=n;i++){
+//     console.log(i);
+// }
 
 
 // const person={
@@ -21,9 +21,8 @@ for(var i=0;i<=n;i++){
 //     "country": "USA",
 //     "phone": "Ph: 12345"
 // }
-
-// console.log(person.address)
-
+// console.log(typeof person)
+// console.log(typeof person.address)
 
 
 // const ages=[32,12,11,24];

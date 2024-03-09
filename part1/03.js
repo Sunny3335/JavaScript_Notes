@@ -9,7 +9,7 @@ var value1 = 2;
 console.log(value1);
 console.log(value1**2);
 
-// you can use only undersore _ or dollar symbol
+// you can use only underscore _ or ar doller symbol
 // first_name (valid)
 // _firstname (valid)
 
@@ -17,8 +17,8 @@ console.log(value1**2);
 // $firstname (valid)
 
 // you cannot use spaces
-// var first_name = "harshit"; // snake case writing
-// var firstName = "harshit"; // camel case writing
+// var first_name = "sunny"; // snake case writing
+// var firstName = "sunny"; // camel case writing
 // first name (invalid)
 
 // convention
