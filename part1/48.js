@@ -5,7 +5,7 @@ function app(){
         console.log("hello from myFunc")
     }
 
-    const addTwo = (num1, num2) =>{
+    const addTwo = (num1, num2) =>{ 
         return num1 + num2;
     }
 

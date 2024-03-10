@@ -1,6 +1,7 @@
 // lexical scope
- 
-const myVar = "value1";
+// it means lexical scope is the space where the function is defined and  all its variables are stored.
+
+const myVar = "value1"; // this variable is in global scope so it is called by the the all function and valid for all lexical environment .
 
 function myApp(){
 

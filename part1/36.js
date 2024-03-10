@@ -13,17 +13,20 @@ const person = {
     hobbies: ["guitar", "sleeping", "listening music"]
 }
 console.log(person);
+console.log(person.name);
+console.log(typeof person);
 
 // how to access data from objects
 // using . operator
 // let ans =person.name;
-// console.log(person["name"]); // javascript me key by default string me hoti hai
+// console.log(person["name"]); // javascript me key by default string me hoti hai..so,
 // in bracket notation we always uses the string.
 // console.log(person["age"]);
 // console.log(person.hobbies); // to print array
 
+
 // how to add key value pair to objects
 // using dot operator
 // person.gender="male";
-person["person"] = "male";
-console.log(person);
+// person["person"] = "male";
+// console.log(person);

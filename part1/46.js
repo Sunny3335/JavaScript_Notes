@@ -3,11 +3,15 @@
 //     console.log("happy birthday to you ......");
 // }
 
-const singHappyBirthday = () => {
-    console.log("happy birthday to you ......");
+// const singHappyBirthday = () => {
+//     console.log("happy birthday to you ......");
+// }
+
+const happyBirthday = () => {
+    console.log("happy birthday");
 }
 
-singHappyBirthday();
+happyBirthday();
 
 const sumThreeNumbers = (number1, number2, number3) => {
     return number1 + number2 + number3;

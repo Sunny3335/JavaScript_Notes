@@ -1,5 +1,6 @@
 // difference between dot and bracket notaion
 // const key = "email";
+
 // const person = {
 //     name: "harshit",
 //     age: 22,
@@ -8,7 +9,7 @@
 // }
 
 // console.log(person["person hobbies"]);
-// person.key="sunnykumar@gmail.com"; // in this case we can not access the email in the object we only access the key name in the object
-// person[key] = "harshitvashisth@gmail.com"; // but in this case we access the key value email in the object 
+// person.key="sunnykumar@gmail.com"; // in this case we can not access the email in the object we only access the key name in the object and reflect the result in the object.
+// person[key] = "sunnykumar@gmail.com"; // but in this case we access the key value email in the object.
 
 // console.log(person);

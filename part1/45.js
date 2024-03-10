@@ -1,8 +1,11 @@
-// function expression 
+
+// the below is function declaration
 // function singHappyBirthday(){
 //     console.log("happy birthday to you ......");
 // }
 
+
+// these are function expression that is called anonymous function.
 const singHappyBirthday = function(){
     console.log("happy birthday to you ......");
 }
