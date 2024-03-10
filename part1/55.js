@@ -1,10 +1,11 @@
-// function returning function 
-
+// function returning function
+// heigher order function if we doing callback as well as function returing function along with together then it is called heiher order function
 function myFunc(){
     function hello(){
         return "hello world"
     }
-    return hello;
+    // console.log(hello());
+    return hello; // returning function
 }
 
 const ans = myFunc();

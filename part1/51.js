@@ -7,7 +7,8 @@
 //     return a+b;
 // }
 
-function addTwo(a,b=0){
+function addTwo(a, b = 0) { // if we are not setting the value of b then it will return undefined in case of passing of only one argument in the function .
+    
     /* if(typeof b==="undefined"){
         b=0;
     } */
