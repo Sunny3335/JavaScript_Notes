@@ -47,7 +47,7 @@ const myArray = [1,2,4,4,5,6,5,6];
 const uniqueElements = new Set(myArray);
 // length property can be used on the set  object to get the count of elements in the set.
 //console.log(uniqueElements.length); // gives the undefined value.
-console.log(uniqueElements.length) // return the undefined because the set is not iterable
+console.log(uniqueElements.length) // return the undefined because the set does not gives the length property .
 // console.log(Array.isArray(myArray));
 
 // fo finding length of the set using the "for of" loop.

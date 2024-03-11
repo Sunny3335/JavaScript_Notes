@@ -1,3 +1,5 @@
+// object is not iterable so we can not use for of loop on obj but we use for in loop on the obj.
+
 // Maps
 // map is an iterable
 
@@ -38,7 +40,7 @@
 // const person = new Map();
 // person.set('firstName', 'Harshit');
 // person.set('age', 7);
-//person.set(1,'one'); // in map key is of any data type.
+//person.set(1,'one'); // in map key is of any data type. // this is beggest difference btn map and object.
 // person.set([1,2,3],'onetwothree'); // key also be array.
 // person.set({1: 'one'},'onetwothree'); // key me kuch  v add kr skte ho.
 
