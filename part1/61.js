@@ -1,13 +1,14 @@
-// find method 
-
-// const myArray = ["Hello", "catt", "dog", "lion"];
+// find method
+// used to find particular  element in array on their unique  id.
+// const myArray = ["Hello", "cat", "dog", "lion"];
 
 // function isLength3(string){
 //     return string.length === 3;
 // }
 
 // const ans = myArray.find((string)=>string.length===3);
-// console.log(ans);
+// console.log(ans); // cat
+// find method return the first string whose length ===3.
 
 const users = [
     {userId : 1, userName: "harshit"},

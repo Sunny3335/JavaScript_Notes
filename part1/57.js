@@ -1,4 +1,5 @@
-// map method 
+// map method
+// return a new array
 // const numbers = [3,4,6,1,8];
 
 // const square = function(number){
@@ -10,15 +11,30 @@
 // });
 // console.log(squareNumber);
 
-const users = [
-    {firstName: "harshit", age: 23},
-    {firstName: "mohit", age: 21},
-    {firstName: "nitish", age: 22},
-    {firstName: "garima", age: 20},
-]
+// const users = [
+//     {firstName: "harshit", age: 23},
+//     {firstName: "mohit", age: 21},
+//     {firstName: "nitish", age: 22},
+//     {firstName: "garima", age: 20},
+// ]
 
-const userNames = users.map((user)=>{
-    return user.firstName;
-});
+// const userNames = users.map((user)=>{
+//     return user.firstName;
+// });
 
-console.log(userNames);
+// console.log(userNames);
+
+// const myFunc = () => {
+//     console.log("hello world")
+// }
+
+
+const myFunc = () => {
+    return "hello";
+}
+const res = myFunc();
+// console.log(res);
+// console.log(myFunc());
+// let ans=myFunc();
+// console.log(myFunc());
+myFunc()

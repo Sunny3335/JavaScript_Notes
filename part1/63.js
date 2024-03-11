@@ -1,10 +1,10 @@
-// some method 
+// some method
 
 const numbers = [3,5,11,9];
 
-// kya ek bhi number esa hai jo even hai 
-// true 
-
+// kya ek bhi number esa hai jo even hai
+// true
+// if condition true on any one of the  elements then it will return true.
 // const ans = numbers.some((number)=>number%2===0);
 // console.log(ans);
 

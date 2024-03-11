@@ -1,5 +1,5 @@
-// sort method 
-// ASCII TABLE 
+// sort method
+// ASCII TABLE
 //char : ascii value
 
 
@@ -93,16 +93,22 @@
 // '}' : 125
 
 
-// sort  
+// sort
 
 // 5,9,1200, 400, 3000
 // 5, 9, 400, 1200, 3000 (expected)
 
-// ["5", "9", "1210", "410", "3000"] 
-// [53, 57, 49, 52, 51]
+// sort function does not sort the number it sort the number by changing it to string then it change the  string back to a number.
+// Js ka sort function sort the number by assuming the item  is a string. So it will convert all numbers to strings and then compare them to ASCII value.
+
+// ["5", "9", "1210", "410", "3000"]
+// [53, 57, 49, 52, 51] // here Js compare the first digit of whole intger and return the ASCII value as compared to that number.
 
 // const userNames = ['harshit', 'abcd', 'mohit', 'nitish', 'aabc', 'ABC', 'Harshit'];
-// userNames.sort();
+// userNames.sort(); // it sort the userNames on the alphabetical manner like dictionary.
+
+// here first sort the capital letter because  in ASCII table all uppercase letters come before lower.
+
 // console.log(userNames);
 
 // const numbers = [5,9,1200, 410, 3000];
@@ -112,14 +118,16 @@
 // numbers.sort((a,b)=>a-b);
 // console.log(numbers);
 
-// 1200,410 
+// 1200,410
 // a-b ---> 790
 // a-b ---> postive (greater than 0) ---> b, a
 // 410 , 1200
 
 // a-b ---> negative ----> a,b
-// 5, 9 ---> -4 
-// price lowToHigh HighToLow 
+// 5, 9 ---> -4
+// then first put the a then b value in the array.
+// price lowToHigh HighToLow
+
 const products = [
     {productId: 1, produceName: "p1",price: 300 },
     {productId: 2, produceName: "p2",price: 3000 },

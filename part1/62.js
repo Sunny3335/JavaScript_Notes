@@ -4,6 +4,9 @@
 
 // const ans = numbers.every((number)=>number%2===0);
 
+// callback function returning true or false .
+// every method also returning the true and false value but it check the all elements the  it return the true if all element found true on the given condition otherwise it return false.
+
 // console.log(ans);
 
 const userCart = [

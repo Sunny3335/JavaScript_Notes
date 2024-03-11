@@ -1,15 +1,17 @@
-// reduce 
+// reduce
 const numbers = [1,2,3,4,5, 10];
 
-// aim : sum of all the numbers in array 
+// aim : sum of all the numbers in array
 
 // const sum = numbers.reduce((accumulator, currentValue)=>{
 //     return accumulator + currentValue;
 // }, 100);
 
+// this 100 is initial value of accumulator.
+
 // console.log(sum);
-// accumulator , currentValue,  return 
-// 1               2              3 
+// accumulator , currentValue,  return
+// 1               2              3
 // 3               3              6
 // 6               4              10
 // 10              5              15
@@ -28,7 +30,7 @@ const numbers = [1,2,3,4,5, 10];
 
 // console.log(totalAmount);
 
-// total price      currentValue     return 
+// total price      currentValue     return
 // 0                {}                  12000
 // 12000            22000                34000
 // 34000            15000                49000
