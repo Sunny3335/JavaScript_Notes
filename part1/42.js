@@ -6,7 +6,7 @@ const users = [
     {userId: 2,firstName: 'mohit', gender: 'male'},
     {userId: 3,firstName: 'nitish', gender: 'male'},
 ]
-for(let user of users){ // use of for ...of loop to iterate over an object inside the
+for(let user of users){ // use of for ...of loop to iterate over an object inside the Array.
 
     console.log(user); // it will print the all object
     console.log(user.firstName); // it will return only the firstName values.

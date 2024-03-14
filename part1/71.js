@@ -4,7 +4,8 @@
 function personInfo(){
     console.log(`person name is ${this.firstName} and age is ${this.age}`);
 }
-
+// this value can be recognized on the run time.
+// this is object jo is function ko call kr rha hai
 const person1 = {
     firstName : "harsh",
     age: 8,

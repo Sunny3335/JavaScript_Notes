@@ -20,6 +20,7 @@
 // object literal
 // key -> string
 // key -> symbol
+
 // const person = {
 //     firstName : "harshit",
 //     age: 7,
@@ -38,9 +39,9 @@
 
 // key value pair
 // const person = new Map();
-// person.set('firstName', 'Harshit');
+// person.set('firstName', 'Harshit'); // putting the key value pair in the map.
 // person.set('age', 7);
-//person.set(1,'one'); // in map key is of any data type. // this is beggest difference btn map and object.
+// person.set(1,'one'); // in map key is of any data type. // this is biggest difference btn map and object. here we manually key id of number type.
 // person.set([1,2,3],'onetwothree'); // key also be array.
 // person.set({1: 'one'},'onetwothree'); // key me kuch  v add kr skte ho.
 
@@ -48,7 +49,7 @@
 
 
 
-// console.log(person.get('age')); // here we pass string as string and number as number.
+// console.log(person.get('age')); // to access the map key value pair, we pass string as string and number as number.
 
 // console.log(person.keys()); // for printing keys
 
@@ -58,6 +59,7 @@
 //     console.log(key, typeof key);
 // }
 
+// map is iterable but object was not iterable .
 // directly apply for of loop on maps.
 // for(let [key, value] of person){
     // console.log(Array.isArray(key));
@@ -65,30 +67,31 @@
 // }
 
 // for(let key of person){
-//     console.log(key);
+//     console.log(key); //gives the array
+    // console.log(Array.isArray (key)); // it gives the array.
 // }
 
 // the above loop returns the object
 
 // -------------------
 
-const person1 = {
-    id: 1,
-    firstName: "harshit"
-}
-const person2 = {
-    id: 2,
-    firstName: "harshta"
-}
+// const person1 = {
+//     id: 1,
+//     firstName: "harshit"
+// }
+// const person2 = {
+//     id: 2,
+//     firstName: "harshta"
+// }
 
 
-const extraInfo = new Map();
-extraInfo.set(person1, {age: 8, gender: "male"});
+// const extraInfo = new Map();
+// extraInfo.set(person1, {age: 8, gender: "male"});
 // extraInfo.set(person2, {age: 9, gender: "female"});
-console.log(extraInfo);
-console.log(person1.id);
-console.log(extraInfo.get(person1).gender);
-console.log(extraInfo.get(person2).gender);
+// console.log(extraInfo);
+// console.log(person1.id);
+// console.log(extraInfo.get(person1).gender);
+// console.log(extraInfo.get(person2).gender);
 
 
 //const my=new Map([["name","sunny"],["age",22],["home","aurangabad"]]); // i can also use the set of array  like method to add elements in map.

@@ -12,5 +12,6 @@ let { bandName, famousSong, ...restProps } = band;
 console.log(bandName); // it gives the undefine because it value changed to var1.
 // console.log(var1); // bandName changed to var1 so we have to always used var1 in place of bandName.
 // bandName="wujnfj";
-console.log(bandName);
+// console.log(bandName);
 console.log(restProps); // it will print the object of rest of the properties.
+console.log(Array.isArray (restProps)); // false because it is object

@@ -1,5 +1,5 @@
 // arrow functions
-
+// arrow function does not have this keyword it take the value of this around surrounding.
 const user1 = {
     firstName : "harshit",
     age: 8,

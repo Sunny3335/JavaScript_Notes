@@ -13,7 +13,12 @@ const user1 = {
 // don't do this mistake
 
 // user1.about();
-// const myf=user1.about; // in this line we only store the reference of the  function not the whole object so when we call it.
+// const myf=user1.about;// aisa krne se this ki binding ni ho rhi hai binding call krne pe hogi so for binding we use .bind().
+// in this line we only store the reference of the  function not the whole object so when we call it.
+// const myf=function(){
+        // console.log(this);
+//         console.log(this.firstName, this.age);
+//     }
 // myf();
 // just above and below code is equal in the because i am not calling the about method.
 
