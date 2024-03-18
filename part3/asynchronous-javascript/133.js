@@ -21,7 +21,7 @@ const heading10 = document.querySelector(".heading10");
 // six        3s      blue
 // seven      1s      brown
 
-// callback hell
+// callback hell (nested callback)
 // setTimeout(()=>{
 //   heading1.textContent = "one";
 //   heading1.style.color = "violet";
@@ -47,6 +47,8 @@ const heading10 = document.querySelector(".heading10");
 
 // },1000)
 
+// if any selector is not available then it will throw an error and does not execute the further code so we shulud use the selector with the appropiate name.
+
 function changeText(element, text, color, time, onSuccessCallback, onFailureCallback) {
   setTimeout(()=>{
     if(element){
@@ -62,6 +64,7 @@ function changeText(element, text, color, time, onSuccessCallback, onFailureCall
     }
   },time)
 }
+
 // pyramid of doom
 changeText(heading1, "one","violet",1000,()=>{
   changeText(heading2, "two","purple",2000,()=>{
@@ -73,7 +76,7 @@ changeText(heading1, "one","violet",1000,()=>{
               changeText(heading8, "eight","cyan",1000,()=>{
                 changeText(heading9, "nine","#cda562",1000,()=>{
                   changeText(heading10, "ten","dca652",1000,()=>{
-                     
+
                   },()=>{console.log("Heading10 does not exist")})
                 },()=>{console.log("Heading9 does not exist")})
               },()=>{console.log("Heading8 does not exist")})

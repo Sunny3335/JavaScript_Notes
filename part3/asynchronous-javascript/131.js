@@ -1,11 +1,18 @@
 // setInterval
 // console.log("script start");
 // setInterval(() => {
+//   let total=0;
+//   for(let i=0;i<10;i++){
+//     total=total+i;
+//   }
 //   console.log(total);
 //   console.log(Math.random()); // Math.random() is a function that will give a random number between 0 and 1
-// }, 500);
+// }, 5000);
 // console.log("script end");
+
+// make color changing
 const body = document.body;
+console.log(body);
 const button = document.querySelector("button");
 const intervalId = setInterval(() => {
   const red = Math.floor(Math.random() * 256);
@@ -20,9 +27,11 @@ button.addEventListener("click", () => {
   button.textContent = body.style.background;
 });
 
-console.log(intervalId);
+// console.log(intervalId);
 
 //use of floor and ceil function
+// floor gives rounded minimum number (lower limit)
+// ceil gives the rounded maximum number (upper limit)
 //floor used to rounds a number DOWN to the nearest integer like (3.5 -> 3,-3.9 -> -4 )
 //ceil used to rounds a number UP to the nearest integer like (0.2 -> 1, -3.5 -> -3)
 
