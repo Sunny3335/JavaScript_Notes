@@ -89,7 +89,33 @@
 // console.log(freddie.colorChange('orange'));
 
 // ----------------------------------------------------------------
-let greeting;
-greetign = {}; // Typo!
-console.log(greetign); // return the {} empty object
+// "use strict"; // when we does not use restrict key word then it will creates the error in the code.
+// let greeting;
+// greetign = {}; // Typo! // ye variable window object ke key ke roop me store ho jayega.
+// console.log(greetign); // return the {} empty object
 // console.log(greeting);
+
+// ----------------------------------------------------------------
+// function bark() {
+//   console.log('Woof!');
+// }
+// console.log(bark.age); // returns the undefined value because age is not a key for the bark object
+// here bark is used as object because function used as object
+// bark.animal = 'dog';
+// console.log(bark.animal); // gives the dog.
+// bark();
+
+// ----------------------------------------------------------------
+function Person(firstName, lastName) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+}
+
+const member = new Person('Lydia', 'Hallie');
+// console.log(typeof (member)); // return the object
+console.log(member); // object
+Person.getFullName = function() { // this is the addition of the object property as key.
+  return `${this.firstName} ${this.lastName}`; // return function
+};
+console.log(typeof Person.getFullName);
+console.log(Person.getFullName()); // getFullName is not a function.
